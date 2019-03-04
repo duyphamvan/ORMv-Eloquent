@@ -1,0 +1,28 @@
+*{
+
+}
+
+.card {
+    animation: move 2s ease;
+    transition: 3s;
+
+}
+
+@-webkit-keyframes move {
+    0% {
+        opacity: 0;
+        top: -200px;}
+    100% {
+        opacity: 1;
+        top: 0px;}
+}
+
+li.nav-item.active {
+    margin-right: 40px;
+}
+
+ul.navbar-nav.mr-auto.mt-2.mt-lg-0 {
+    width: 55%;
+    justify-content: center;
+    display: flex;
+}
